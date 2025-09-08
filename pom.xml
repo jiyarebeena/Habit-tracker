@@ -44,14 +44,13 @@
             <version>9.1.0</version>
         </dependency>
 
+        <!-- Updated protobuf (safe version) -->
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>4.27.2</version>
         </dependency>
-
     </dependencies>
-
 
     <build>
         <plugins>
