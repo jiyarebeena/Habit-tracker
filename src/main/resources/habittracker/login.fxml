@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.habittracker.controllers.LoginController">
+
+    <center>
+        <VBox>
+            <Label text="Welcome Back to Habit Tracker " styleClass="title"/>
+            <TextField fx:id="usernameField" promptText="Enter Username"/>
+            <PasswordField fx:id="passwordField" promptText="Enter Password"/>
+
+            <Button text="Login" onAction="#handleLogin"/>
+            <Label fx:id="errorLabel" textFill="#802d67"/>
+        </VBox>
+    </center>
+
+    <padding>
+        <Insets top="30" right="30" bottom="30" left="30"/>
+    </padding>
+</BorderPane>
