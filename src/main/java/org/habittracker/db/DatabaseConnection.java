@@ -12,6 +12,7 @@ public class DatabaseConnection {
     private static String DB_PASSWORD;
 
     static {
+        
         try (InputStream input = DatabaseConnection.class
                 .getClassLoader()
                 .getResourceAsStream("config.properties")) {
